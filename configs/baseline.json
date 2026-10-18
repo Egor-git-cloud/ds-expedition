@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "conf_threshold": 0.25,
+  "tile_height": 1024,
+  "tile_width": 1024,
+  "overlap_ratio": 0.3,
+  "hillshade_res": 0.1,
+  "hillshade_max_pixels": 60000000,
+  "window_pixels": 48000000,
+  "extra_modalities": ["or", "sp_or"]
+}

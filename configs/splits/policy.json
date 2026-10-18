@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "seed": 42,
+  "ratios": {"train": 0.7, "validation": 0.15, "test": 0.15},
+  "family_tokens": ["гнездово", "семибратнее", "судьбищи", "эсбю", "хога", "иссык_куль"],
+  "uncertain_series": ["каменные_выкладки", "постройки", "курганы"],
+  "pinned_groups": {
+    "гнездово": "train",
+    "семибратнее": "validation",
+    "судьбищи": "test",
+    "unverified_named_series": "train"
+  }
+}

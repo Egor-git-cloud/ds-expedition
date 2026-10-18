@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ds-expedition"
+version = "0.1.0"
+description = "Team workspace for Expedition DS KOZ-3"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+evaluation = ["shapely>=2", "pyproj"]
+baseline = ["numpy", "opencv-python-headless", "rasterio", "torch", "Pillow", "affine", "pyproj", "shapely>=2", "ultralytics"]
+
+[project.scripts]
+ds-paths = "ds_expedition.paths:main"
+ds-audit = "ds_expedition.audit:main"
+ds-split = "ds_expedition.splits:main"
+ds-plan = "ds_expedition.preparation:main"
+ds-predict = "ds_expedition.prediction:main"
+ds-evaluate = "ds_expedition.evaluation:main"
+ds-train = "ds_expedition.training:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

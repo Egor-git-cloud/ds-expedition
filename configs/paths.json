@@ -1,0 +1,7 @@
+{
+  "dataset_root": "data/raw/train-koz-3",
+  "manifests_dir": "data/manifests",
+  "prepared_data_dir": "data/processed",
+  "models_dir": "models",
+  "results_dir": "results"
+}

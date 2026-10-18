@@ -1,0 +1,12 @@
+{
+  "status": "template_not_executable",
+  "split_file": "configs/splits/v1.json",
+  "train_partition": "train",
+  "tuning_partition": "validation",
+  "seed": 42,
+  "task": "instance_segmentation",
+  "epochs": 50,
+  "batch_size": 2,
+  "image_size": 1024,
+  "required_next_step": "Prepare georeferenced tiles and labels, then select a training backend."
+}
